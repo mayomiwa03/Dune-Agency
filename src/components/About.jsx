@@ -8,10 +8,10 @@ const About = () => {
     <AboutSection>
       <div className="imgSide">
         <img src={image} alt="" />
-        <span>
+        <span className="span1">
           <img src={spanimg} alt="" />
         </span>
-        <span>
+        <span className="span2">
           <img src={dotted} alt="" />
         </span>
       </div>

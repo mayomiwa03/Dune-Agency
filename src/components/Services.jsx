@@ -4,10 +4,11 @@ import dev from "../imgs/dev.png";
 import mobile from "../imgs/mobile.png";
 import rocket from "../imgs/rocket.png";
 import { ServiceSection } from "./styles";
+import bg from "../imgs/bluerectangle.png";
 
 const Services = () => {
   return (
-    <ServiceSection ServiceSection>
+    <ServiceSection>
       <div className="textSide">
         <h1>
           <span>What We Do</span> <br />
@@ -57,6 +58,9 @@ const Services = () => {
           </p>
         </div>
       </div>
+      <span className="bckg">
+        <img src={bg} alt="" />
+      </span>
     </ServiceSection>
   );
 };

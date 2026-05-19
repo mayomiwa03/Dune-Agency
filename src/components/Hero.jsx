@@ -3,6 +3,7 @@ import { HeroSection } from "./styles";
 import heroImg from "../imgs/HeroImg.png";
 import heroSpan from "../imgs/Herospan.png";
 import dotted from "../imgs/dottedspan.png";
+import bg from "../imgs/Headerspan.png";
 
 const Hero = () => {
   return (
@@ -20,13 +21,16 @@ const Hero = () => {
       </div>
       <div className="Imgside">
         <img src={heroImg} alt="" />
-        <span>
-          <img className="span" src={heroSpan} alt="" />
+        <span className="span span1">
+          <img src={heroSpan} alt="" />
         </span>
-        <span>
-          <img className="span" src={dotted} alt="" />
+        <span className="span span2">
+          <img src={dotted} alt="" />
         </span>
       </div>
+      <span className="headerSpan">
+        <img src={bg} alt="" />
+      </span>
     </HeroSection>
   );
 };

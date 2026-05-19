@@ -7,7 +7,7 @@ const Testimonial = () => {
     <TestimonialSection>
       <div className="title">
         <h1>
-          <span>Our Testimonials</span> <br /> What Our Clients are saying
+          <span>Our Testimonials</span> <br /> What Our Clients Are Saying
         </h1>
       </div>
       <div className="cardHolder">

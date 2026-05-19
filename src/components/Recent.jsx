@@ -5,6 +5,7 @@ import desk3 from "../imgs/closedesktop.png";
 import mob1 from "../imgs/uisoupmobile.png";
 import mob2 from "../imgs/goldcrownmobile.png";
 import icons from "../imgs/Icons.png";
+import bg from "../imgs/recentspan.png";
 const Recent = () => {
   return (
     <RecentSection>
@@ -50,6 +51,9 @@ const Recent = () => {
         </div>
       </div>
       <img className="imgg" src={icons} alt="" />
+      <span className="span">
+        <img src={bg} alt="" />
+      </span>
     </RecentSection>
   );
 };
