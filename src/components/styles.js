@@ -5,6 +5,7 @@ import { createGlobalStyle } from "styled-components";
 const GlobalStyle = createGlobalStyle`
   body{
     font-family: "Hind Vadodara", sans-serif;
+    overflow-x: none;
   }
 `;
 
@@ -338,6 +339,7 @@ export const RecentSection = styled.div`
       flex-direction: column;
       p {
         text-align: center;
+        width: 90%;
       }
     }
     .carousel {
