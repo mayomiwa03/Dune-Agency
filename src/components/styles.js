@@ -5,8 +5,10 @@ import { createGlobalStyle } from "styled-components";
 const GlobalStyle = createGlobalStyle`
   body{
     font-family: "Hind Vadodara", sans-serif;
-    overflow-x: none;
-  
+    overflow-x: hidden;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
   }
    
 `;
@@ -231,7 +233,7 @@ export const ServiceSection = styled.div`
       height: 40px;
     }
     .cardholder {
-      width: 250px;
+      width: 260px;
       display: flex;
       flex-direction: column;
       padding: 1rem;
@@ -583,7 +585,7 @@ export const FooterSection = styled.footer`
       text-decoration: none;
     }
     .mail {
-      width: 70%;
+      width: 100%;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -631,6 +633,7 @@ export const FooterSection = styled.footer`
     margin: 0;
     padding: 1.5rem;
     align-items: start;
+    width: 100%;
 
     .textSide {
       h1 {
