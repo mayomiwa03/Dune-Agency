@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <FooterSection>
       <div className="textSide">
-        <h1>Dream Agency</h1>
+        <h1>Dune Agency</h1>
         <p>
           Lorem Ipsum has been the industry's standard dummy text ever since the
           1500s, when an unknown printer took a galley of type and scrambled it

@@ -5,11 +5,17 @@ import { NavContainer } from "./styles";
 const Navbar = () => {
   return (
     <NavContainer>
-      <div className="navItems">
-        <a href="">home</a>
-        <a href="">about us</a>
-        <a href="">services</a>
-        <a href="">contact us</a>
+      <label for="toggle" class="hamb">
+        &#9776;
+      </label>
+      <input type="checkbox" id="toggle" />
+      <div className="lSide">
+        <div className="navItems">
+          <a href="">home</a>
+          <a href="">about us</a>
+          <a href="">services</a>
+          <a href="">contact us</a>
+        </div>
       </div>
 
       <h1>Dune Agency</h1>

@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Testimonial from "./components/Testimonial";
 import Recent from "./components/Recent";
 import About from "./components/About";
+import Services from "./components/Services";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <GlobalStyle />
       <Navbar />
       <Hero />
+      <Services />
       <About />
       <Recent />
       <Testimonial />

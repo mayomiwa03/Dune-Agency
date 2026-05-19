@@ -9,7 +9,7 @@ const Hero = () => {
     <HeroSection>
       <div className="Textside">
         <h1>
-          <span>We Help you</span> to grow your Business
+          <span>We Help you</span> <br /> to grow your Business
         </h1>
         <p>
           Lorem Ipsum has been the industry's standard dummy text ever since the
