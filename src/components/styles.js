@@ -62,7 +62,7 @@ export const NavContainer = styled.nav`
     border-radius: 3rem 1rem;
   }
   @media (min-width: 260px) and (max-width: 500px) {
-    padding: 0 0.5rem;
+    padding: 0 1rem;
 
     .lSide {
       display: none;
@@ -85,7 +85,7 @@ export const NavContainer = styled.nav`
     }
     .hamb {
       display: block;
-      font-size: 1rem;
+      font-size: 1.5rem;
     }
     .navIcons {
       gap: 0.7rem;
@@ -174,7 +174,7 @@ export const HeroSection = styled.div`
     .Textside {
       padding-inline: 1.5rem;
       h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
         line-height: 1;
         word-spacing: 1;
       }
@@ -281,6 +281,7 @@ export const ServiceSection = styled.div`
 
     .textSide {
       h1 {
+        font-size: 2rem;
         line-height: 1;
         word-spacing: 1;
       }
@@ -367,6 +368,7 @@ export const AboutSection = styled.div`
       width: 90%;
       padding-inline: 3rem;
       h1 {
+        font-size: 2rem;
         line-height: 1;
         word-spacing: 1;
       }
@@ -475,7 +477,7 @@ export const RecentSection = styled.div`
     .title {
       flex-direction: column;
       h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
 
         line-height: 1;
         word-spacing: 1;
@@ -542,7 +544,7 @@ export const TestimonialSection = styled.div`
   @media (min-width: 260px) and (max-width: 500px) {
     .title {
       h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
 
         line-height: 1;
         word-spacing: 1;
@@ -551,6 +553,12 @@ export const TestimonialSection = styled.div`
     .cardHolder {
       flex-direction: column;
       padding: 1.5rem;
+      card {
+        p {
+          font-size: 1rem;
+          line-height: 1.6;
+        }
+      }
     }
   }
 `;
