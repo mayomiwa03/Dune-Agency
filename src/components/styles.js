@@ -200,11 +200,8 @@ export const HeroSection = styled.div`
       }
     }
     .headerSpan {
-      top: 320px;
-      right: 0px;
-      img {
-        width: 300px;
-      }
+      top: 0;
+      right: -200px;
     }
   }
 `;
@@ -280,12 +277,21 @@ export const ServiceSection = styled.div`
   @media (min-width: 260px) and (max-width: 500px) {
     margin: 5rem auto 1rem;
 
+    .textSide {
+      h1 {
+        line-height: 1;
+        word-spacing: 1;
+      }
+    }
+
     .cardWrapper {
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      margin: 5rem 0;
 
       gap: 1rem;
+
       .icons {
         display: none;
       }
@@ -358,6 +364,10 @@ export const AboutSection = styled.div`
     .textSide {
       width: 90%;
       padding-inline: 3rem;
+      h1 {
+        line-height: 1;
+        word-spacing: 1;
+      }
       p {
         margin-bottom: 3rem;
       }
@@ -464,6 +474,9 @@ export const RecentSection = styled.div`
       flex-direction: column;
       h1 {
         font-size: 2.5rem;
+
+        line-height: 1;
+        word-spacing: 1;
       }
       p {
         text-align: center;
@@ -528,6 +541,9 @@ export const TestimonialSection = styled.div`
     .title {
       h1 {
         font-size: 2.5rem;
+
+        line-height: 1;
+        word-spacing: 1;
       }
     }
     .cardHolder {
